@@ -1,5 +1,18 @@
 header
  { 
-    background-color:blue;
+    background-color:rgb(80, 80, 92);
+    font-size: smaller;
+    text-align: center;
     color:white;
+ }
+ body{
+    background-color: blanchedalmond;
+ }
+.cabeçalho-imagem {
+    image-orientation: flip;
+    width: 30%;
+}
+.cabeçalho {
+    display: flex;
+    justify-content: space-around;
 }
